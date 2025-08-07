@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Selection </title>
+</head>
+    <style>
+      .border{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        height: 250px;
+        width: 200px;
+        border-radius: 10px;
+        border: 0px solid black;
+        background-color: aqua;
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: background-color 1s;
+      }
+
+      .border:hover{
+        background-color: rgb(190, 190, 254);
+      }
+
+
+    </style>
+  </head>
+  <body>
+
+    <div class="border"><br><br> <br>
+      <label for="course">Select a Course:</label> <br> 
+      <select id="course" name="course">
+        <optgroup label="Science">
+            <option value="physics">Physics</option>
+            <option value="chemistry">Chemistry</option>
+            <option value="biology">Biology</option>
+        </optgroup>
+        <optgroup label="Commerce">
+            <option value="accounting">Accounting</option>
+            <option value="business-studies">Business Studies</option>
+            <option value="economics">Economics</option>
+        </optgroup>
+        <optgroup label="Arts">
+            <option value="history">History</option>
+            <option value="geography">Geography</option>
+            <option value="political">Political Science </option>
+        </optgroup>
+      </select>
+    </div>
+
+  </body>
+</html>

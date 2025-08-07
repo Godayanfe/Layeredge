@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+        .registration-container {
+            background: #fff;
+            padding: 2rem 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            width: 320px;
+        }
+        .registration-container h2 {
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        .registration-container label {
+            display: block;
+            margin-bottom: 0.5rem;
+            margin-top: 1rem;
+        }
+        .registration-container input[type="text"],
+        .registration-container input[type="email"],
+        .registration-container input[type="password"] {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .registration-container button {
+            width: 100%;
+            padding: 0.7rem;
+            background: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        .registration-container button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <form class="registration-container">
+        <h2> <img src="layer.png" alt="LayerEdge Logo" style="width: 100px; display: block; margin: 0 auto;"> Register on LayerEdge</h2>
+        <label for="Fullname">Full Name</label>
+        <input type="text" id="Fullname" name="Fullname" required />
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="Date of Birth">Date of Birth</label>
+        <input type="date" id="Date of Birth" name="Date of Birth" required />
+        
+          <label for="gender">Gender </label>
+        <input type="radio" name="gender" value="Female" required /> Female
+            <input type="radio" name="gender" value="male" required /> Male
+            <input type="radio" name="gender" value="other" required /> Other
+    
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+    
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" name="confirm-password" required />
+        
+        <button type="submit">Reset</button>
+        <br> 
+        <br>
+        
+        <button type="submit">Register</button>
+
+        <p style="text-align: center; margin-top: 1rem;">
+        <a href="login.html">Already have an account? Login</a>
+        <checkbox style="margin-left: 1rem;">
+            <label>
+                <input type="checkbox" name="terms" required /> I agree to the terms and conditions
+            </label>
+        </checkbox>
+    </p>
+    </form>
+    
+</body>
+</html>

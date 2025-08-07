@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Semantic HTML5 Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f8f9fa;
+        }
+        header, footer {
+            background: #007bff;
+            color: #fff;
+            padding: 1rem 2rem;
+        }
+        nav {
+            margin-top: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            margin-right: 1.5rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            display: flex;
+            margin: 2rem;
+        }
+        article {
+            flex: 3;
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        aside {
+            flex: 1;
+            margin-left: 2rem;
+            background: #e9ecef;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+        }
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Fashion Webpage</h1>
+        <nav>
+            <a href="#section1">Home</a>
+            <a href="#section2">About</a>
+            <a href="#section3">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2 id="section1">Welcome to My Website</h2>
+            <p>
+                This is a simple Webpage.
+            </p>
+            <h3 id="section2">About This Page</h3>
+            <p>
+                The page uses <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code>, and <code>&lt;footer&gt;</code> to organize content.
+            </p>
+            <h3 id="section3">Contact</h3>
+            <p>
+                For more information, please use the contact link in the footer.
+            </p>
+        </article>
+        <aside>
+            <h4>Did you know?</h4>
+            <p>
+                My webpage is about fashion trends and the latest styles.
+
+            </p>
+            <hr>
+            <p>
+                <strong>Ad:</strong> Learn how to style your wears and accessories
+                !
+            </p>
+        </aside>
+    </main>
+    <footer>
+        &copy; 2025 My fashion Webpage &mdash; 
+        <a href="mailto:info@example.com" style="color:#fff;text-decoration:underline;">Contact Us</a>
+    </footer>
+</body>
+</html>
